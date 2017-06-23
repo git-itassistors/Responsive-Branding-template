@@ -1,0 +1,561 @@
+/*
+
+Website Theme : 1.0.1
+Developer : Neelakantan a.k.a It Assistors
+Development year : Oct, 2016 -- Jun, 2017
+Name : portrayit
+Desc : Design assistance company
+
+*/
+
+@media only screen and (max-width: 1650px){
+	
+	
+	.nav-menu
+	{
+		margin-left: 10%;
+		font-size: 20px;
+	}
+	
+	.nav-menu-alt
+	{
+		margin-left: 50%;
+	}
+	
+	.nm-child, .active, 
+	{
+		font-size: 15px !important;
+		margin-top: 25px;
+	}
+	
+	.nm-child-alt, .active-alt
+	{
+		font-size: 20px !important;
+		
+	}
+	
+	.nm-child:hover, .nm-child-alt:hover, .active:hover, .active-alt:hover{
+		border: none !important;
+	}
+	
+}
+
+
+@media only screen and (max-width: 1430px){
+
+	.nm-child, .active, .nm-child-alt, .active-alt
+	{
+		font-size: 15px !important;
+	}
+	
+	.nm-child:hover, .active:hover ,.nm-child-alt:hover, .active-alt:hover{
+		font-size: 20px !important;
+	}
+	
+	.sec-one-block img
+	{
+		width: 180px;
+	}
+	
+	.sec-block-desc
+	{
+		font-size: 18px;
+	}
+	.blob-one
+	{
+		margin-left: 3%;
+		margin-top: 30px;
+	}
+	.blob-one img
+	{
+		width: 150px;
+		height: 150px;
+	}
+	
+	.hr
+	{
+		margin-top: 70px;
+		height: 120px;
+	}
+	
+	.blob-o-head
+	{
+		margin-top: 30px;
+	}
+	
+	.blob-o-head
+	{
+		font-size: 30px;
+	}
+	.blob-desg
+	{
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 1270px){
+
+	.logo-holder
+	{
+		margin-left: 2%
+	}
+	
+	.logo-img
+	{
+		width: 250px;
+		margin-top: 15px;
+	}
+	
+	.nav-menu
+	{
+		margin-left: 15%;
+	}
+	
+	.nav-menu-alt
+	{
+		margin-left: 40%;
+		margin-top: 10px;
+	}
+	
+	.nm-child, .nm-child-alt, .active, .active-alt
+	{
+		font-size: 15px !important;
+		margin-top: 25px;
+	}
+
+	.abt-blob-container, .blob-one
+	{
+		display: block;
+	}
+	.about-container
+	{
+		padding-bottom: 200px;
+	}
+	.hr{
+		display: block;
+		height: 5px;
+		margin-left: 12%;
+		width: 70%;
+		border-left: none;
+		border-right: none;
+		margin-bottom: 0px;
+		border-top:  dashed 2px #FFF;
+	}
+	
+	.blob-one img
+	{
+		margin-left: 40%;
+		margin-bottom: 0px;
+		
+	}
+	.blob-one
+	{
+		margin-bottom: 10px;
+	}
+	
+	.blob-o-head
+	{
+		margin-top: 10px !important;
+		margin-left: 31%;
+		font-size: 45px !important;
+	}
+	.blob-desg
+	{
+		text-align: center;
+		font-size: 30px;
+		width: 60%;
+		margin-left: 16%;
+		margin-top: 50px;
+	}
+	
+	input[type='text'], #comment, input[type="submit"]
+	{
+		width: 50%;
+	}
+	.sec-two-container
+	{
+		margin-top: 50px;
+		padding-bottom: 150px;
+	}
+	.sec-one-block
+	{
+		margin: 10px;
+	}
+	.sec-one-block img
+	{
+		width: 150px;
+	}
+	.sec-block-desc
+	{
+		margin-top: 40px !important; 
+		font-size: 20px;
+		padding: 0;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 1060px){
+	
+	body
+	{
+		background-size: 250% 1920px;
+	}
+	
+	.logo-holder
+	{
+		display: none;
+	}
+	.hid-logo
+	{
+		display: inline-flex!important;
+		margin: 0px !important;
+	}
+	.logo-img
+	{
+		width: 320px;
+	}
+	
+	.menu-dot
+	{
+		margin: 40px;
+	}
+	
+	.logo-img
+	{
+		background: url(logo.png) no-repeat;
+		background-size: 260px 70px;
+		margin: 20px;
+		margin-left: 80px;
+	}
+	
+	header
+	{
+		display: block;
+	}
+	
+	.nav-menu
+	{
+		display: none;
+	}
+	
+	.head-desc
+	{
+		display: block;
+	}
+	
+	.head-title
+	{
+		text-align: center;
+		margin-left: 36%;
+	}
+	
+	.desc-container
+	{
+		margin-left: 36.5%;	
+	}
+	.desc-holder
+	{
+		width: 80% !important;
+		text-align: center;
+		font-size: 35px;
+		margin-left: 30%;
+	}
+	.head-d-1
+	{
+		float: none;
+	}
+	.bounce-intro
+	{
+		float: none;
+		position: static;
+		margin: 0px;
+		margin-left: 40%;
+		margin-top: 30px;
+		display: none;
+	}
+	.alt-src
+	{
+		display: block;
+		width: 300px;
+		height: 300px;
+		margin-top: 50px;
+		background: url(alt-src.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.top-bar
+	{
+		background: rgba(0,0,0,0.55);
+		position: fixed;
+		height: 110px;
+		box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+	}
+	
+	.top-bar-alt
+	{
+		display: none !important;
+	}
+	.head-title
+	{
+		font-size: 35px;
+		text-align: center;
+		width: 50%;
+		margin-left: 44%;
+	}
+	.desc-container
+	{
+		font-size: 25px;
+		margin-left: 44%;
+		width: 50%;
+		text-align: center;
+	}
+	.desc-holder
+	{
+		font-size: 30px;
+		width: 25%;
+	}
+	
+	.abt-blob-container
+	{
+		display: none;
+	}
+	
+	.hidden-abt
+	{
+		display: block !important;
+	}
+	
+	.hidden-abt *
+	{
+		margin: 0px !important;
+		margin-top: 15px !important;
+	}
+	.active
+	{
+		display: block !important;
+	}
+}
+
+@media only screen and (max-width: 810px){
+	
+	.logo-holder
+	{
+		display: none;
+	}
+	
+	.active
+	{
+		display: block !important;
+	}
+	
+	.head-title, .desc-container, .desc-holder
+	{
+		margin-left: 0px !important;
+	}
+	.hidden-head
+	{
+		display: block !important;
+		margin-left: 0px;
+	}
+	
+	.head-title
+	{
+		border: none;
+		text-shadow: 1px 1px 10px #000;
+	}
+	
+	.head-d-1
+	{
+		display: none;
+	}
+	
+	.desc-container
+	{
+		width: 100%;
+	}
+	
+	
+	.sec-two-container
+	{
+		display: block !important;
+	}
+	
+	.sec-one-block
+	{
+		width: 90%;
+		margin-left: 2.5%;
+		margin-bottom: 100px;
+	}
+	
+	.sec-down-desc
+	{
+		font-size: 25px !important;
+		width: 65%;
+	}
+	
+	.sec-block-desc
+	{
+		font-size: 25px;
+		width: 70%;
+		margin-left: 14%;
+	}
+	
+	.foot-div
+	{
+		display: block;
+	}
+}
+
+
+
+@media only screen and (max-width: 550px){
+	
+	
+	.logo-img
+	{
+		margin-left: 10px !important;
+	}
+	
+	.fy-head
+	{
+		text-align: center;
+		margin: 0px !important;
+		margin-bottom: 50px !important;
+	}
+	
+	.f-div-x
+	{
+		margin-left: 10px !important;
+	}
+	
+	.fy-desc
+	{
+		text-align: center;
+		width: 75%;
+		margin: 0px !important;
+		margin-left: 10% !important;
+	}
+	
+	.blob-desg
+	{
+		width: 95%;
+		font-size: 20px;
+	}
+	
+	input[type="text"], input[type="submit"], #comment
+	{
+		width: 85%;
+		
+	}
+	
+}
+
+
+@media only screen and (max-width: 480px){
+
+	.head-title
+	{
+		margin-left: -100px !important;
+	}
+
+	.hid-logo
+	{
+		margin-left: -30px !important;
+	}
+}
+
+@media only screen and (min-width: 810px){
+	
+	.side-active
+	{
+		display: none !important;
+	}
+	
+}
+
+
+@media only screen and (max-width: 450px){
+	.sec-block-desc
+	{
+		font-size: 20px !important;
+		width: 95%;
+		margin-left: 6px;
+	}
+	.desc-holder
+	{
+		font-size: 20px;
+	}
+	
+	.sec-down-desc
+	{
+		width: 95%;
+		font-size: 20px !important;
+	}
+	
+	.sec-tit, .abt-title, .contact-holder h2
+	{
+		font-size: 40px;
+	}
+	
+	.alt-src
+	{
+		width: 180px;
+		height: 180px;
+		margin-left: -10px;
+		margin-bottom: -100px;
+	}
+	
+	.logo-img
+	{
+		background-size: 60%;
+		margin-left: -20px !important;
+		margin-top: 30px;
+	}
+	
+	.fdx-desc, .fy-desc
+	{
+		font-size: 15px !important;
+	}
+	
+	.soc-icons
+	{
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-height: 390px){
+	.side-pane *
+	{
+		padding: 1px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
